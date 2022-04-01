@@ -5,7 +5,10 @@ SetWorkingDir %A_ScriptDir%    ; Ensures a consistent starting directory.
 
 #Include .\includes
 
+#Include capslock.ahk
+#Include powertoys-fancy-zones.ahk
+
 ;#Include caps-ctrl-switch.ahk
 ;#Include special-chars.ahk
-#Include window-management.ahk
-#Include workspace-management.ahk
+;#Include window-management.ahk
+;#Include workspace-management.ahk
