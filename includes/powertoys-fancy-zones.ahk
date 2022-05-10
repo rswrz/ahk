@@ -8,9 +8,13 @@ SetWorkingDir %A_ScriptDir%    ; Ensures a consistent starting directory.
 #s::Send #{Down}
 #w::Send #{Up}
 #d::Send #{Right}
+#e::Send #{PgDn}
+#q::send #{PgUp}
 
 ; VIM style arrow keys
 +#h::Send #{Left}
 +#j::Send #{Down}
 +#k::Send #{Up}
 +#l::Send #{Right}
++#u::Send #{PgDn}
++#i::send #{PgUp}
